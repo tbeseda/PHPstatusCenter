@@ -1,0 +1,5 @@
+A quick and dirty PHP app (with iPhone interface!) to write status messages to a JSON store, sends push notifications via Notifo, and can be read with a JSONP API.
+
+This is a perfect internal tool for organizations that need to quickly update members with simple text messages, and then display those messages elsewhere.
+
+Yup, it's "dirty". PHP writes directly to a .json file (make sure file perms are set correctly!), and very little security has been added so far. Be careful.
