@@ -1,0 +1,157 @@
+/***** General Style *****/
+
+body {
+	font: 13px/1.4 "Lucida Grande", "Trebuchet MS", sans-serif;
+	}
+
+table {
+	border-collapse: collapse;
+	}
+
+a {
+	color: #900;
+	}
+
+.error {
+	color: #c00;
+	}
+
+.hidden {
+	display: none;
+	}
+
+.large-margin-top {
+	margin-top: 3em;
+	}
+	
+.margin-top {
+	margin-top: 1em;
+	}
+	
+.padded {
+	padding: 15px;
+	}
+	
+.padded-sides {
+	padding: 0 15px;
+	}
+	
+.fade {
+	background: #a6c186 url( /image/fade.gif) top left repeat-x;
+	font: bold 12px/24px "Lucida Grande", "Trebuchet MS", sans-serif;
+	}
+
+.clear {
+	clear: both;
+	}
+	
+.relative {
+	position: relative;
+	top: 0;
+	}
+
+h2 {
+	border-bottom: 2px solid #900;
+	font-size: 1.85em;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-bottom: 3px;
+	}
+
+ul.bullet li {
+	list-style: disc;
+	margin-left: 1.5em;
+	}
+
+/***** Layout *****/
+	
+#header {
+	background: #000;
+	border-bottom: 1px #666 solid;
+	height: 80px;
+	}
+	
+	#header img {
+		display: block;
+		}
+
+	#header #integer-logo {
+		position: absolute;
+		top: 0;
+		right: 0;
+		}
+
+#navigation {
+	border-bottom: 4px solid #c66;
+	background: #900 url( /image/fade.gif) top left repeat-x;
+	}
+
+	#navigation ul {
+		list-style: none;
+		margin: 0 auto;
+		width: 25.5em;
+		}
+	
+		#navigation ul li {
+			display: block;
+			float: left;
+			border-left: 1px solid #c66;
+			}
+			
+			#navigation ul li.current {
+				background: #c66;
+				}
+			
+		#navigation ul li + li {
+			border: none;
+			}
+
+	#navigation a {
+		display: block;
+		padding: 0 12px;
+		font: bold 12px/24px "Lucida Grande", "Trebuchet MS", sans-serif;
+		border-right: 1px solid #c66;
+		text-align: center;
+		text-decoration: none;
+		color: #fff;
+		text-shadow: 0px 1px 2px #666;
+		}
+		
+	#navigation a:hover, #navigation li:hover a , #navigation ul li.current a {
+		color: #600;
+		text-decoration: none;
+		text-shadow: 0 1px 2px #ccc;
+		}
+
+#container {
+	position: relative;
+	top: 0;
+	}
+
+.centered {
+	width: 600px;
+	margin: 10px auto;
+	}
+	
+.fixed-bottom {
+	background: #900;
+	border-top: 3px #c66 solid;
+	bottom: 0;
+	height: 20px;
+	left: 0;
+	padding: 5px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	}
+	
+.bottom-space {
+	height: 25px;
+	}
+	
+/***** Form *****/
+
+table.headers-left th {
+	font-weight: bold;
+	padding-right: 10px;
+	}
